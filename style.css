@@ -6,8 +6,7 @@
 }
 
 .wrap {
-  padding-top: 50px;
-  
+  padding-top: 50px;  
 }
 
 .modules {
@@ -17,50 +16,46 @@
 }
 
 .stage-content {
-  background: red;
-  max-width: 800px;
-  float: right;
+  background-color: #2C6BB2;
+  float: none;
+  width: 100%;
 }
 
 .promo-text {
-    width:350px;
-}
-.promo-text {
-    float:left;
-    padding: 20px 30px;
-    color: #ebeef3;
-    font-size: 90%;
-}
-/*
-.promo-text:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    left: 0;
+    width:100%;
+    border-right: none;
+    border-bottom: 1px solid #fff;
     background-color: #191970;
-}
-*/
-
-.promo-form {
-    width:450px;
-}
-.promo-form {
-    float:left;
+    float:none;
     padding: 20px 30px;
     color: #ebeef3;
     font-size: 90%;
 }
-/*
-.promo-form:before {
-    content: '';
-    width: 35%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    left: 65%;
-    background-color: #337ACC;
+
+.promo-form {
+    width:100%;
+    float:none;
+    padding: 20px 30px;
+    color: #ebeef3;
+    font-size: 90%;
 }
-*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .stage-content {
+    max-width: 820px;
+    float: right;
+  }
+  .promo-text { 
+    width:370px;
+    border-right: 1px solid #eee;
+    border-bottom: none;
+    float:left;
+  }
+  .promo-form {
+    width:450px;
+    float:left;
+  }
+}
+
+
