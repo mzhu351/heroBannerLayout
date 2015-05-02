@@ -1,11 +1,13 @@
 /* Styles go here */
 .hero-bg {
   width:100%;
-  min-height: 600px;
+  background-image: url("http://placekitten.com/g/1200/1000");
+  background-size:cover;
 }
 
 .wrap {
-  padding-top: 60px;
+  padding-top: 50px;
+  
 }
 
 .modules {
@@ -14,27 +16,14 @@
     background:#ddd;
 }
 
-.empty-content, .empty-content:before {
-    width:35%;
-}
-.empty-content {
-    float:left;
-    padding: 20px 30px;
-    color: #6d7072;
-}
-.empty-content:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    left: 0;
-    background-image: url("http://placekitten.com/g/1200/1000");
-    background-size:cover;
+.stage-content {
+  background: red;
+  max-width: 800px;
+  float: right;
 }
 
-.promo-text, .promo-text:before {
-    width:30%;
+.promo-text {
+    width:350px;
 }
 .promo-text {
     float:left;
@@ -42,17 +31,20 @@
     color: #ebeef3;
     font-size: 90%;
 }
+/*
 .promo-text:before {
     content: '';
     position: absolute;
     top: 0;
     bottom: 0;
     z-index: -1;
-    left: 35%;
+    left: 0;
     background-color: #191970;
 }
-.promo-form, .form:before {
-    width:35%;
+*/
+
+.promo-form {
+    width:450px;
 }
 .promo-form {
     float:left;
@@ -60,6 +52,7 @@
     color: #ebeef3;
     font-size: 90%;
 }
+/*
 .promo-form:before {
     content: '';
     width: 35%;
@@ -70,3 +63,4 @@
     left: 65%;
     background-color: #337ACC;
 }
+*/
